@@ -1,0 +1,680 @@
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Angulard/angular.json
+        modified:   Angulard/package-lock.json
+        modified:   Angulard/package.json
+        new file:   Angulard/src/app/Components/principal/principal.component.css
+        new file:   Angulard/src/app/Components/principal/principal.component.html
+        new file:   Angulard/src/app/Components/principal/principal.component.spec.ts
+        new file:   Angulard/src/app/Components/principal/principal.component.ts
+        modified:   Angulard/src/app/app.component.html
+        modified:   Angulard/src/app/app.component.ts
+        new file:   Angulard/src/custom-theme.scss
+        modified:   Angulard/src/index.html
+        modified:   Angulard/src/styles.css
+
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (main)
+$ git commit -m "ejercicio de clase 27/02/2025 - botones angular"
+[main 6b5fe2c] ejercicio de clase 27/02/2025 - botones angular
+ 12 files changed, 115 insertions(+), 340 deletions(-)
+ create mode 100644 Angulard/src/app/Components/principal/principal.component.css
+ create mode 100644 Angulard/src/app/Components/principal/principal.component.html
+ create mode 100644 Angulard/src/app/Components/principal/principal.component.spec.ts
+ create mode 100644 Angulard/src/app/Components/principal/principal.component.ts
+ create mode 100644 Angulard/src/custom-theme.scss
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (main)
+$ git branch -M main
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (main)
+$ git push -u origin main
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 28, done.
+Counting objects: 100% (28/28), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (18/18), 3.18 KiB | 1.06 MiB/s, done.
+Total 18 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   4bb0251..6b5fe2c  main -> main
+branch 'main' set up to track 'origin/main'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (main)
+$ git checkout -b (27/02/2025)
+bash: syntax error near unexpected token `('
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (main)
+$ git checkout -b 27/02/2025
+Switched to a new branch '27/02/2025'
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (27/02/2025)
+$ git add .
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (27/02/2025)
+$ git commit -m "ejercicio de clase 27/02/2025 - botones angular"
+On branch 27/02/2025
+nothing to commit, working tree clean
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (27/02/2025)
+$ git add .
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (27/02/2025)
+$ git commit -m "ejercicio de clase 27/02/2025 - botones angular"
+[27/02/2025 173babd] ejercicio de clase 27/02/2025 - botones angular
+ 1 file changed, 1 insertion(+)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (27/02/2025)
+$ git push -u origin 27/02/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 671 bytes | 671.00 KiB/s, done.
+Total 8 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for '27/02/2025' on GitHub by visiting:
+remote:      https://github.com/Saulix187203/Proyecto_Programacion_web/pull/new/27/02/2025
+remote:
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+ * [new branch]      27/02/2025 -> 27/02/2025
+branch '27/02/2025' set up to track 'origin/27/02/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (27/02/2025)
+$ git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (main)
+$ git checkout -b 06/03/2025
+Switched to a new branch '06/03/2025'
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add .
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - paso1:creacion de userform"
+[06/03/2025 0ff0a34] 06/03/2025 - paso1:creacion de userform
+ 4 files changed, 35 insertions(+)
+ create mode 100644 Angulard/src/app/Components/user-form/user-form.component.css
+ create mode 100644 Angulard/src/app/Components/user-form/user-form.component.html
+ create mode 100644 Angulard/src/app/Components/user-form/user-form.component.spec.ts
+ create mode 100644 Angulard/src/app/Components/user-form/user-form.component.ts
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (10/10), 1.20 KiB | 614.00 KiB/s, done.
+Total 10 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for '06/03/2025' on GitHub by visiting:
+remote:      https://github.com/Saulix187203/Proyecto_Programacion_web/pull/new/06/03/2025
+remote:
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+ * [new branch]      06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git status
+On branch 06/03/2025
+Your branch is up to date with 'origin/06/03/2025'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Angulard/src/app/Components/user-form/user-form.component.html
+        modified:   Angulard/src/app/Components/user-form/user-form.component.ts
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add Angulard/src/app/Components/user-form/user-form.component.ts
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - paso2,3,4:importar dependencias y modificar UserFormComponent"
+[06/03/2025 b5c0240] 06/03/2025 - paso2,3,4:importar dependencias y modificar UserFormComponent
+ 1 file changed, 25 insertions(+), 3 deletions(-)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.06 KiB | 543.00 KiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   0ff0a34..b5c0240  06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add Angulard/src/app/Components/user-form/user-form.component.html
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - paso5:modificar el html para el registro de usuario"
+[06/03/2025 ef13a6d] 06/03/2025 - paso5:modificar el html para el registro de usuario
+ 1 file changed, 17 insertions(+), 1 deletion(-)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 965 bytes | 965.00 KiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   b5c0240..ef13a6d  06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git status
+On branch 06/03/2025
+Your branch is up to date with 'origin/06/03/2025'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Angulard/src/app/Components/user-form/user-form.component.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add Angulard/src/app/Components/user-form/user-form.component.css
+warning: in the working copy of 'Angulard/src/app/Components/user-form/user-form.component.css', LF will be replaced by CRLF the next time Git touches it
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - paso6: agregar estilos a user-form.component.css"
+[06/03/2025 19619f8] 06/03/2025 - paso6: agregar estilos a user-form.component.css
+ 1 file changed, 26 insertions(+)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 922 bytes | 461.00 KiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   ef13a6d..19619f8  06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git reset --soft HEAD~1
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push --force
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+ + 19619f8...ef13a6d 06/03/2025 -> 06/03/2025 (forced update)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add Angulard/src/app/Components/user-form/user-form.component.css
+warning: in the working copy of 'Angulard/src/app/Components/user-form/user-form.component.css', LF will be replaced by CRLF the next time Git touches it
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - paso6: agregar estilos a user-form.component.css"
+[06/03/2025 6e5ac40] 06/03/2025 - paso6: agregar estilos a user-form.component.css
+ 1 file changed, 37 insertions(+)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 971 bytes | 971.00 KiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   ef13a6d..6e5ac40  06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git status
+On branch 06/03/2025
+Your branch is up to date with 'origin/06/03/2025'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Angulard/src/app/app.component.ts
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add Angulard/src/app/app.component.ts
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - paso7: importar componetes al component principal de Angular"
+[06/03/2025 8ee412a] 06/03/2025 - paso7: importar componetes al component principal de Angular
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 649 bytes | 649.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   6e5ac40..8ee412a  06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git status
+On branch 06/03/2025
+Your branch is up to date with 'origin/06/03/2025'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Angulard/src/app/app.component.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add Angulard/src/app/app.component.html
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - paso8: llamar al user-form en el html principal"
+[06/03/2025 3237b2d] 06/03/2025 - paso8: llamar al user-form en el html principal
+ 1 file changed, 1 insertion(+)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 578 bytes | 578.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   8ee412a..3237b2d  06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add .
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - paso9: al quere mostrar tuve que eliminar 2 imports del user-form.component"
+[06/03/2025 3584382] 06/03/2025 - paso9: al quere mostrar tuve que eliminar 2 imports del user-form.component
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 753 bytes | 753.00 KiB/s, done.
+Total 8 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   3237b2d..3584382  06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add .
+warning: in the working copy of 'Angulard/package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Angulard/package.json', LF will be replaced by CRLF the next time Git touches it
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - paso10: instalación de primeflex"
+[06/03/2025 7b19a06] 06/03/2025 - paso10: instalación de primeflex
+ 3 files changed, 11 insertions(+), 2 deletions(-)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 794 bytes | 794.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   3584382..7b19a06  06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add .
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - paso11: crear un componente llamado user-form-primeflex"
+[06/03/2025 de65852] 06/03/2025 - paso11: crear un componente llamado user-form-primeflex
+ 4 files changed, 35 insertions(+)
+ create mode 100644 Angulard/src/app/Components/user-form-primeflex/user-form-primeflex.component.css
+ create mode 100644 Angulard/src/app/Components/user-form-primeflex/user-form-primeflex.component.html
+ create mode 100644 Angulard/src/app/Components/user-form-primeflex/user-form-primeflex.component.spec.ts
+ create mode 100644 Angulard/src/app/Components/user-form-primeflex/user-form-primeflex.component.ts
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (10/10), 1.30 KiB | 663.00 KiB/s, done.
+Total 10 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   7b19a06..de65852  06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git status
+On branch 06/03/2025
+Your branch is up to date with 'origin/06/03/2025'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Angulard/src/app/Components/user-form-primeflex/user-form-primeflex.component.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add Angulard/src/app/Components/user-form-primeflex/user-form-primeflex.component.html
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - paso12: creacion de formulario html en el user-form-promeflex.html"
+[06/03/2025 e1dac73] 06/03/2025 - paso12: creacion de formulario html en el user-form-promeflex.html
+ 1 file changed, 30 insertions(+), 1 deletion(-)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.06 KiB | 544.00 KiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   de65852..e1dac73  06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git status
+On branch 06/03/2025
+Your branch is up to date with 'origin/06/03/2025'.
+
+nothing to commit, working tree clean
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git status
+On branch 06/03/2025
+Your branch is up to date with 'origin/06/03/2025'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Angulard/src/app/Components/user-form-primeflex/user-form-primeflex.component.ts
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add Angulard/src/app/Components/user-form-primeflex/user-form-primeflex.component.ts
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - paso13: modificar el archivo user-form-primeflex.components.ts"
+[06/03/2025 28b1f76] 06/03/2025 - paso13: modificar el archivo user-form-primeflex.components.ts
+ 1 file changed, 25 insertions(+), 2 deletions(-)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.10 KiB | 1.10 MiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   e1dac73..28b1f76  06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git status
+On branch 06/03/2025
+Your branch is up to date with 'origin/06/03/2025'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Angulard/src/app/app.component.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add Angulard/src/app/app.component.html
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - paso13: modificar el html principal para añadir el user-form-primeflex"
+[06/03/2025 c500e7a] 06/03/2025 - paso13: modificar el html principal para añadir el user-form-primeflex
+ 1 file changed, 1 insertion(+)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 615 bytes | 615.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   28b1f76..c500e7a  06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git reset --soft HEAD~1
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push --force
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+ + c500e7a...28b1f76 06/03/2025 -> 06/03/2025 (forced update)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add .
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - paso14: importar la clase UserFormPrimeflex al app.components.ts"
+[06/03/2025 0005141] 06/03/2025 - paso14: importar la clase UserFormPrimeflex al app.components.ts
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 727 bytes | 727.00 KiB/s, done.
+Total 7 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   28b1f76..0005141  06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add .
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - SOLUCION DE ERROR por escribir mal en la linea 27 del user-form-primeflex.component.ts"
+[06/03/2025 3af68aa] 06/03/2025 - SOLUCION DE ERROR por escribir mal en la linea 27 del user-form-primeflex.component.ts
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 779 bytes | 779.00 KiB/s, done.
+Total 8 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   0005141..3af68aa  06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add .
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - paso16: crear un nuevo componente llamado display-data"                          [06/03/2025 adddbf5] 06/03/2025 - paso16: crear un nuevo componente llamado display-data
+ 4 files changed, 35 insertions(+)
+ create mode 100644 Angulard/src/app/Components/display-data/display-data.component.css
+ create mode 100644 Angulard/src/app/Components/display-data/display-data.component.html
+ create mode 100644 Angulard/src/app/Components/display-data/display-data.component.spec.ts
+ create mode 100644 Angulard/src/app/Components/display-data/display-data.component.ts
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (10/10), 1.30 KiB | 664.00 KiB/s, done.
+Total 10 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   3af68aa..adddbf5  06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git status
+On branch 06/03/2025
+Your branch is up to date with 'origin/06/03/2025'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Angulard/src/app/Components/display-data/display-data.component.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add Angulard/src/app/Components/display-data/display-data.component.html
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - paso17: modificar el archivo html de display-data.component.html"
+[06/03/2025 2f79e86] 06/03/2025 - paso17: modificar el archivo html de display-data.component.html
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 901 bytes | 901.00 KiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   adddbf5..2f79e86  06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git status
+On branch 06/03/2025
+Your branch is up to date with 'origin/06/03/2025'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Angulard/src/app/Components/display-data/display-data.component.ts
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add Angulard/src/app/Components/display-data/display-data.component.ts
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - paso18: importar los modulos necesarios y modificar el export class para recibir datos"
+[06/03/2025 a105a6e] 06/03/2025 - paso18: importar los modulos necesarios y modificar el export class para recibir datos
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1003 bytes | 501.00 KiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   2f79e86..a105a6e  06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git add .
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git commit -m "06/03/2025 - paso19: agregar el DisplayData al componente principal y hacer que este tenga una funcion para recibir los datos"
+[06/03/2025 316b959] 06/03/2025 - paso19: agregar el DisplayData al componente principal y hacer que este tenga una funcion para recibir los datos
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$ git push -u origin 06/03/2025
+Enter passphrase for key '/c/Users/HP/.ssh/id_ed25519':
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 759 bytes | 759.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:Saulix187203/Proyecto_Programacion_web.git
+   a105a6e..316b959  06/03/2025 -> 06/03/2025
+branch '06/03/2025' set up to track 'origin/06/03/2025'.
+
+HP@DESKTOP-3GOU8A8 MINGW64 ~/OneDrive - Universidad Da Vinci de Guatemala/AW_proyectos/Proyecto_Programacion_web (06/03/2025)
+$
