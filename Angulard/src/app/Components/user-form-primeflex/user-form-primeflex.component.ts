@@ -24,7 +24,7 @@ export class UserFormPrimeflexComponent {
   age: number | null = null;
 
   @Output() userSumbit = new EventEmitter<{ name: string; age: number }>();
-  subirForm() {
+  submitForm() {
     if (this.name && this.age !== null) {
       this.userSumbit.emit({ name: this.name, age: this.age });
       this.name = "";
