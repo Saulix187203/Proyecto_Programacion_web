@@ -9,8 +9,6 @@ import { MatInputModule } from '@angular/material/input';
   selector: 'app-user-form',
   imports: [
     CommonModule,
-    EventEmitter,
-    Output,
     MatInputModule,
     MatButtonModule,
     MatFormFieldModule,
@@ -20,12 +18,13 @@ import { MatInputModule } from '@angular/material/input';
   styleUrl: './user-form.component.css'
 })
 export class UserFormComponent {
-  nombre: string = "";
+  nombre: string = '';
   edad: number | null = null;
+
   @Output() userSumbit = new EventEmitter<{ nombre: string; edad: number }>();
   subirForm() {
     if (this.nombre && this.edad !== null) {
-      this.userSumbit.emit({nombre: this.nombre, edad: this.edad});
+      this.userSumbit.emit({ nombre: this.nombre, edad: this.edad });
       this.nombre = "";
       this.edad = null;
     }
