@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { userDTO } from '../../interfaces/userDTO';
 
 @Component({
   selector: 'app-user-form',
@@ -18,15 +19,23 @@ import { MatInputModule } from '@angular/material/input';
   styleUrl: './user-form.component.css'
 })
 export class UserFormComponent {
-  nombre: string = '';
-  edad: number | null = null;
 
-  @Output() userSumbit = new EventEmitter<{ nombre: string; edad: number }>();
+  @Output() userSumbit = new EventEmitter<userDTO>();
+  userOBJ: userDTO = {
+    nombre: '',
+    apellido: '',
+    edad: 0,
+    correo: '',
+    contra: '',
+    contra2: ''
+  };
+
+  
   subirForm() {
-    if (this.nombre && this.edad !== null) {
-      this.userSumbit.emit({ nombre: this.nombre, edad: this.edad });
-      this.nombre = "";
-      this.edad = null;
+    const { nombre, apellido, edad, correo, contra, contra2 } = this.userOBJ;
+
+    if (this.userOBJ.nombre && this.userOBJ.apellido && this.userOBJ.edad !== null) {
+      this.userSumbit.emit(this.userOBJ);
     }
   }
 }
